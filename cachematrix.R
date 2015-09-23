@@ -4,6 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+<<<<<<< HEAD
     # A setter function, use this to set a matrix to object created by makeCacheMatrix function
     
     xInverse <- NULL # initialize the inverse
@@ -23,11 +24,16 @@ makeCacheMatrix <- function(x = matrix()) {
 }    
 
 
+=======
+
+}
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 
 
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
+<<<<<<< HEAD
     # This function computes the inverse of x created with the above function
     
     m <- x$getInverse() # get the inverse matrix from x
@@ -41,4 +47,7 @@ cacheSolve <- function(x, ...) {
     m <- solve(data, ...)
     x$setInverse(m)
     m
+=======
+        ## Return a matrix that is the inverse of 'x'
+>>>>>>> 7f657dd22ac20d22698c53b23f0057e1a12c09b7
 }
